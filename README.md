@@ -4,6 +4,34 @@ This project uses Quarkus, the Supersonic Subatomic Java Framework.
 
 If you want to learn more about Quarkus, please visit its website: https://quarkus.io/ .
 
+## Task
+
+Write a RESTful API that manages products and warehouses.
+
+### The user should be able to:
+- create, update or delete a product with the following properties:
+  - title
+  - description
+  - price
+
+- crate or update a warehouse with the following properties:
+  - title
+  - address
+
+- add a product to the warehouse
+  - name
+  - price
+  - quantity limits (min, max)
+
+### The user should also be able to (optional)
+- get the warehouse stock at a given point in time
+- search for a product by title in the warehouse
+- deliver a product in and out of the warehouse
+- get a list of products that are out of stock or below the minimum quantity
+
+### Save data to a database of your choice (optional)
+If you would like to use an ORM framework, we recommend [Hibernate](https://quarkus.io/guides/hibernate-orm).
+
 ## Running the application in dev mode
 
 You can run your application in dev mode that enables live coding using:
