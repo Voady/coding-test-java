@@ -14,11 +14,11 @@ Write a RESTful API that manages products and warehouses.
   - description
   - price
 
-- crate or update a warehouse with the following properties:
+- crate, delete or update a warehouse with the following properties:
   - title
   - address
 
-- add a product to the warehouse
+- add or remove a product to/from the warehouse
   - name
   - price
   - quantity limits (min, max)
