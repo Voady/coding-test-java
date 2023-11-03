@@ -12,21 +12,21 @@ Write a RESTful API that manages products and warehouses.
 - create, update or delete a product with the following properties:
   - title
   - description
-  - price
+  - recommended price
 
-- crate, delete or update a warehouse with the following properties:
+- create, delete or update a warehouse with the following properties:
   - title
   - address
 
-- add or remove a product to/from the warehouse
-  - name
+- register/unregister a product to/from a warehouse
+  - title
   - price
-  - quantity limits (min, max)
+  - quantity limits (min, max in stock)
 
 ### The user should also be able to (optional)
 - get the warehouse stock at a given point in time
 - search for a product by title in the warehouse
-- deliver a product in and out of the warehouse
+- register deliveries of products in and out of the warehouse
 - get a list of products that are out of stock or below the minimum quantity
 
 ### Save data to a database of your choice (optional)
